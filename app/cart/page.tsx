@@ -8,6 +8,8 @@ const checkEnviroment = () => {
   let base_url = process.env.VERCEL_ENV === "development"
    ? "http://localhost:3000"
    : "https://ecommerce-website-ten-eta.vercel.app"
+
+   return base_url
 }
 
 async function getData() {
