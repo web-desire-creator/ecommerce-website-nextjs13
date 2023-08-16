@@ -39,8 +39,10 @@ export default function Header() {
   return (
     <div className="flex justify-between items-center py-16 ml-auto">
       <div className="flex-none">
-      <Link href="/.">
+      <Link href="/">
+        <div>
         <Image src={Logo} alt="Logo"></Image>
+        </div>
       </Link>
       </div>
       <div>
